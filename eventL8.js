@@ -1,21 +1,21 @@
 // event handling
 let button = document.querySelector("#btn");
 
-// button.onclick = ()=>{
-//     console.log("you clicked on button");
-// };
+button.onclick = ()=>{
+    console.log("you clicked on button");
+};
 
-// let div= document.querySelector("#box");
-// div.onmouseover =()=>{
-//     console.log("you are in inside box ")
-// };
+let div= document.querySelector("#box");
+div.onmouseover =()=>{
+    console.log("you are in inside box ")
+};
 
-// //Event object
-// button.onclick = (evt)=>{
-//     console.log(evt);
-//     console.log(evt.type);
-//     console.log("you clicked on button");
-// };
+//Event object
+button.onclick = (evt)=>{
+    console.log(evt);
+    console.log(evt.type);
+    console.log("you clicked on button");
+};
 
 //Event Listner
 
